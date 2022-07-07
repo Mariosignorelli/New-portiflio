@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=The+Nautigal&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 900px;
+    height: 600px;
+    font-family: 'Pacifico', cursive;
+   color:#191970;
+    text-align: center;
+    background-color: #a6dae8;
+    font-size: 2rem;
+}
+ h1, h2, h3{
+    font-family: serif;
+ }
+
+.sobre {
+    width: 100%;
+    position: relative;
+    left: 25%;
+    top: 30px;
+}
+
+.foto img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border-radius: 50%;
+    border: 2px solid #191970;
+    padding: 3px;
+}
+
+.description {
+    line-height: 2;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.formacao {
+    position: relative;
+    top: 80px;
+    left: 22%;
+}
+
+.formacao h2 {
+    margin-left: 5%;
+    font-size: 35px;
+}
+
+.card {
+    margin-top: 15px;
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 25px;
+
+}
+
+.objetivo {
+    margin-top: 120px;
+}
+
+.objetivo h3 {
+    margin-left: 50%;
+    font-size: 35px;
+
+}
+
+.obj {
+    line-height: 2;
+    letter-spacing: 2px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.social-midia {
+    height: 10%;
+    margin-top: 40px;
+    font-size: 65px;
+    margin-left: 50%;
+}
+
+.fa-github {
+    color: black;
+    text-decoration: none;
+}
+
+.fa-linkedin {
+    color: #0e76a8;
+    text-decoration: none;
+}
+
+.social-midia h3 {
+    font-size: 35px;
+}

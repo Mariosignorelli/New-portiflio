@@ -1,0 +1,89 @@
+body{
+    background-color:  #a6dae8;
+    
+}
+.email{
+    text-align: center;
+    position: relative;
+    color:white;
+    font-size: 30px;
+  
+   
+}
+  .email input {
+    width: 30%;
+    padding: 8px 0;
+    margin: 8px 0;
+
+}
+
+.email input[type=text] {
+    height: 100px;
+    position: relative;
+    left: 40px;
+
+
+}
+
+.email button {
+    width: 100px;
+    background: #9c9a9a;
+    border-radius: 8%;
+}
+.name{
+    position: relative;
+    margin-left: 300px;
+}
+
+.material-symbols-outlined {
+ color: white;
+ font-size: 50px;
+}
+.tel a{
+    text-decoration: none;
+    color: white;
+    font-size: 45px;
+    position: relative;
+    top: 80px;
+    left: 40px;
+}
+.btn-whatsapp{
+    position: absolute;
+    outline: none;
+    top: 500px;
+    right: 50px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    background: #34af23;
+    color: #fff;
+    font-size: 2.3rem;
+    border: 1px solid #f1f1f1;
+
+    animation-name: pulsar;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
+a{
+    color: inherit;
+}
+@keyframes pulsar{
+    0%{
+        width: 60px;
+        height: 60px;
+    }
+    100%{
+        width: 80px;
+        height: 80px;
+    }
+}
+.links{
+    text-align: center;
+    justify-content:space-between;
+}

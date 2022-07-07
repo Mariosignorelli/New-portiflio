@@ -1,0 +1,26 @@
+.email{
+    background-color: #ccc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+}
+
+
+
+input {
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+    text-align: center;
+}
+
+input[type=text] {
+    height: 100px;
+
+}
+
+button {
+    width: 100px;
+    background: #9c9a9a;
+    border-radius: 8%;
+}

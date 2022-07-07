@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/contatos.css">
+    <title>contato</title>
+</head>
+
+<body>
+    <div class="email">
+        <h2>E-mail</h2>
+        <!-- formulario-->
+        <form action="https://formsubmit.co/signorelii2308@gmail.com" method="POST">
+            <!-- name-->
+            <label for="name">Nome: </label>
+            <input type="texto" name="name" required id="name" placeholder="Nome completo"> <br>
+            <!-- E-mail-->
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" required id="email" placeholder="E-mail"><br>
+            <label for="massage">Mensagem</label> <br>
+            <!-- message-->
+            <input class="name" type="text" name="massage" required id="massage"> <br>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <div class="tel">
+        <a href="tel:+551197044-7391"><span class="material-symbols-outlined">
+            call
+            </span>call</a>
+    </div>
+    <div class="whatsapp">
+         <button class="btn-whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=5511970447391&text=Hello%2C%20World" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </button>
+    </div>
+</body>
+
+</html>
